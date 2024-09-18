@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(253, 254, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#grad{
+    background-image: linear-gradient(to right,lavender,silver);
+}
+.full {
+    width: 50%;
+    max-width: 1000px;
+    min-height: 100px;
+    background-color: rgb(245, 239, 231);
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+}
+.left {
+    position: initial;
+    background-color:silver;
+    padding:20px;
+ 
+}
+.right {
+    position: initial;
+    background-color:white;
+    padding: 20px;
+ 
+}
+.image, .Contact, .Skills, .Language, .Hobbies, .title, 
+ .Education, .project {
+    margin-bottom: 30px;
+}
+.h2 {
+    text-underline-offset:initial;
+    background-color: rgb(4, 96, 150);
+}
